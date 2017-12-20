@@ -2,5 +2,13 @@
   "name": "httptutorial",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://app.lvh.me:3000/api"
+    }
+  ]
 }
